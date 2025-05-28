@@ -53,3 +53,16 @@ npm start or node server.js
 | POST   | /api/borrow/return      | Member    | Return a book           |
 | GET    | /api/borrow/history     | Librarian | View all borrow records |
 
+
+Here's a Postman collection JSON for your Library Management System (LMS) API, including:
+
+Auth (Register/Login)
+
+Admin (User Approval)
+
+Books (CRUD)
+
+Borrow/Return
+
+Borrow History
+
