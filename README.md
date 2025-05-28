@@ -35,3 +35,21 @@ git clone <repo-url>
 cd library-management-api
 npm install
 npm start or node server.js
+
+
+
+| Method | Route                   | Role      | Description             |
+| ------ | ----------------------- | --------- | ----------------------- |
+| POST   | /api/auth/register      | Public    | Register new user       |
+| POST   | /api/auth/login         | Public    | Login and get token     |
+| GET    | /api/users              | Admin     | View all users          |
+| PUT    | /api/users/\:id/approve | Admin     | Approve user            |
+| DELETE | /api/users/\:id         | Admin     | Delete user             |
+| POST   | /api/books              | Admin     | Add a book              |
+| PUT    | /api/books/\:id         | Admin     | Update a book           |
+| DELETE | /api/books/\:id         | Admin     | Delete a book           |
+| GET    | /api/books              | All       | View books              |
+| POST   | /api/borrow/borrow      | Member    | Borrow a book           |
+| POST   | /api/borrow/return      | Member    | Return a book           |
+| GET    | /api/borrow/history     | Librarian | View all borrow records |
+
